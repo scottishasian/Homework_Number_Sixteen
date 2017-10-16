@@ -7,4 +7,8 @@ class TestGame < Minitest::Test
     @game = Game.new('rock', 'rock')
   end
 
+  def test_draw()
+    assert_equal("Draw", @game.play)
+  end
+
 end

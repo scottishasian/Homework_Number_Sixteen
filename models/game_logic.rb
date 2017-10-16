@@ -5,4 +5,10 @@ class Game
     @move2 = move2
   end
 
+  def play
+    if @move1 == @move2
+      return "Draw"
+    end
+  end
+
 end
