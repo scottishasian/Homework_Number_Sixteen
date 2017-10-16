@@ -8,7 +8,7 @@ class Game
 
   def play
     if @move1 == @move2
-      return "Draw"
+      return "it was a draw"
     elsif @move1 == 'rock' && @move2 == 'scissors' || @move2 == 'rock' && @move1 == 'scissors'
       return "rock beats scissors"
     elsif @move1 == 'scissors' && @move2 == 'paper' || @move2 == 'scissors' && @move1 == 'paper'

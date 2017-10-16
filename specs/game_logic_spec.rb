@@ -14,7 +14,7 @@ class TestGame < Minitest::Test
   end
 
   def test_draw()
-    assert_equal("Draw", @game.play)
+    assert_equal("it was a draw", @game.play)
   end
 
   def test_rock_win()
