@@ -13,8 +13,8 @@ class Game
       return "rock beats scissors"
     elsif @move1 == 'scissors' && @move2 == 'paper' || @move2 == 'scissors' && @move1 == 'paper'
       return "scissors beats paper"
-
-
+    elsif @move1 == 'paper' && @move2 == 'rock' || @move2 == 'paper' && @move1 == 'rock'
+      return "paper beats rock"
     end
   end
 
