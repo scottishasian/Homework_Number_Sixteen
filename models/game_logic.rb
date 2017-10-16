@@ -3,7 +3,7 @@ class Game
   def initialize(move1, move2)
     @move1 = move1
     @move2 = move2
-    @moves = [@move1, @move2]
+    @moves = []
   end
 
   def play
@@ -17,6 +17,15 @@ class Game
       return "paper beats rock"
     end
   end
+
+  # def play
+  #
+  #
+  #   if @moves.include?("rock", "rock")
+  #     return "Draw"
+  #   end
+  # end
+
 
 
 
